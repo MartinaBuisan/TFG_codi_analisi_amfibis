@@ -4,7 +4,7 @@ L'autora d'aquest TFG és l'alumna Martina Buisán Rodríguez, estudiant del Gra
 
 A continuació es presenta una descripció individual de cada script, indicant-ne l'objectiu, l'estructura general i el tipus de resultat que genera.
 
-# TRIMS ADULTS [🔗](./TRIMS_ADULTS.R)
+# TRIMS ADULTS (./TRIMS_ADULTS.R)
 Aquest script conté tot el flux de treball necessari per ajustar els models TRIM per a les espècies amb dades suficients. Inclou:
 - Preparació de les taules de comptatge per espècie (site × year × season).
 - Ajust del model TRIM amb sobre-dispersió i efectes de lloc i any.
@@ -14,7 +14,7 @@ Aquest script conté tot el flux de treball necessari per ajustar els models TRI
 
 Aquest script és el nucli de l’anàlisi de tendències poblacionals adultes i reprodueix exactament els resultats presentats al cos del treball.
 
-# Índex descriptiu ADULTS [🔗](./index_descriptiu_adults.R)
+# Índex descriptiu ADULTS (./index_descriptiu_adults.R)
 Aquest script inclou els procediments necessaris per calcular els índexs descriptius anuals d’abundància d’adults per a les espècies que no compleixen els requisits mínims per ajustar un model TRIM. Inclou:
 - Preparació de dades: lectura, filtratge i agregació per any i lloc.
 - Càlcul de l’índex simple: mitjana d’individus per lloc mostrejat.
@@ -22,7 +22,7 @@ Aquest script inclou els procediments necessaris per calcular els índexs descri
 
 Aquest script proporciona una alternativa robusta i interpretable quan el volum de dades no permet aplicar models de tendència més complexos.
 
-# DIM EVIDÈNCIES DE REPRODUCCIÓ
+# DIM EVIDÈNCIES DE REPRODUCCIÓ (./DIM_evidencies_reproduccio.R)
 Aquest és el script més extens i complex, ja que implementa tot el procés d’ajust dels models dinàmics d’ocupació (DIM) per les poblacions reproductores. Inclou:
 - Neteja i imputació de Variables (ECELS, percentatge d’ompliment, hidroperíode, etc.).
 - Construcció de matrius de detecció (primàries i secundàries).
@@ -34,7 +34,7 @@ Aquest és el script més extens i complex, ja que implementa tot el procés d�
 
 Aquest script reprodueix íntegrament els resultats dels DIM presentats al treball i garanteix la seva replicabilitat.
 
-# Heatmap EVIDÈNCIES DE REPRODUCCIÓ
+# Heatmap EVIDÈNCIES DE REPRODUCCIÓ (./heatmaps_evidencies_reproduccio.R)
 Aquest script genera els heatmaps de presència/absència d’evidències de reproducció per espècie i any. Inclou:
 - Construcció de matrius binàries a partir de les dades de camp.
 - Ordenació temporal i espacial per facilitar la lectura visual.
