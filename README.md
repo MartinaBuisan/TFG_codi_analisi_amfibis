@@ -1,4 +1,4 @@
-# TFG_codi_analisi_amfibis
+# CODI RSTUDIO IMPLEMENTAT EN EL TREBALL FINAL DE GRAU
 Repositori que conté tots els scripts en R utilitzats per al Treball de Fi de Grau "Els efectes de la sequera en la comunitat d'amfibis de la XPN de la DIBA". Inclou els scripts dels models TRIM, d’anàlisi descriptiva, models DIM i generació de heatmaps.
 L'autora d'aquest TFG és l'alumna Martina Buisán Rodríguez, estudiant del Grau de Biologia de la Universitat de Barcelona. 
 
@@ -6,11 +6,11 @@ A continuació es presenta una descripció individual de cada script, indicant-n
 
 # TRIMS ADULTS
 Aquest script conté tot el flux de treball necessari per ajustar els models TRIM per a les espècies amb dades suficients. Inclou:
-•	Preparació de les taules de comptatge per espècie (site × year × season).
-•	Ajust del model TRIM amb sobre-dispersió i efectes de lloc i any.
-•	Automatització del procés per a totes les espècies seleccionades.
-•	Extracció de resultats: índexs formals i escalats, totals imputats, heatmaps i gràfics de tendència.
-•	Guardat dels models en format .rds per facilitar consultes posteriors.
+- Preparació de les taules de comptatge per espècie (site × year × season).
+- Ajust del model TRIM amb sobre-dispersió i efectes de lloc i any.
+- Automatització del procés per a totes les espècies seleccionades.
+- Extracció de resultats: índexs formals i escalats, totals imputats, heatmaps i gràfics de tendència.
+- Guardat dels models en format .rds per facilitar consultes posteriors.
 
 Aquest script és el nucli de l’anàlisi de tendències poblacionals adultes i reprodueix exactament els resultats presentats al cos del treball.
 
