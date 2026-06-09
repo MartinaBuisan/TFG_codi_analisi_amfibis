@@ -4,7 +4,7 @@ L'autora d'aquest TFG és l'alumna Martina Buisán Rodríguez, estudiant del Gra
 
 A continuació es presenta una descripció individual de cada script, indicant-ne l'objectiu, l'estructura general i el tipus de resultat que genera.
 
-# TRIMS ADULTS
+# TRIMS ADULTS [🔗](./TRIMS_ADULTS.R)
 Aquest script conté tot el flux de treball necessari per ajustar els models TRIM per a les espècies amb dades suficients. Inclou:
 - Preparació de les taules de comptatge per espècie (site × year × season).
 - Ajust del model TRIM amb sobre-dispersió i efectes de lloc i any.
@@ -14,7 +14,7 @@ Aquest script conté tot el flux de treball necessari per ajustar els models TRI
 
 Aquest script és el nucli de l’anàlisi de tendències poblacionals adultes i reprodueix exactament els resultats presentats al cos del treball.
 
-# Índex descriptiu ADULTS
+# Índex descriptiu ADULTS [🔗](./index_descriptiu_adults.R)
 Aquest script inclou els procediments necessaris per calcular els índexs descriptius anuals d’abundància d’adults per a les espècies que no compleixen els requisits mínims per ajustar un model TRIM. Inclou:
 - Preparació de dades: lectura, filtratge i agregació per any i lloc.
 - Càlcul de l’índex simple: mitjana d’individus per lloc mostrejat.
