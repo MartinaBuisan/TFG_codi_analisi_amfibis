@@ -4,7 +4,7 @@ L'autora d'aquest TFG és l'alumna Martina Buisán Rodríguez, estudiant del Gra
 
 A continuació es presenta una descripció individual de cada script, indicant-ne l'objectiu, l'estructura general i el tipus de resultat que genera.
 
-# TRIMS ADULTS  [](./TRIMS_ADULTS.R)
+# TRIMS ADULTS  [🔗](./TRIMS_ADULTS.R)
 Aquest script conté tot el flux de treball necessari per ajustar els models TRIM per a les espècies amb dades suficients. Inclou:
 - Preparació de les taules de comptatge per espècie (site × year × season).
 - Ajust del model TRIM amb sobre-dispersió i efectes de lloc i any.
