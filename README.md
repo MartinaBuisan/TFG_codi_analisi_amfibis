@@ -22,7 +22,7 @@ Aquest script inclou els procediments necessaris per calcular els índexs descri
 
 Aquest script proporciona una alternativa robusta i interpretable quan el volum de dades no permet aplicar models de tendència més complexos.
 
-# DIM EVIDÈNCIES DE REPRODUCCIÓ  [🔗](./DIM_evidencies_reproduccio.R)
+# DOM EVIDÈNCIES DE REPRODUCCIÓ  [🔗](./DIM_evidencies_reproduccio.R)
 Aquest és el script més extens i complex, ja que implementa tot el procés d’ajust dels models dinàmics d’ocupació (DIM) per les poblacions reproductores. Inclou:
 - Neteja i imputació de Variables (ECELS, percentatge d’ompliment, hidroperíode, etc.).
 - Construcció de matrius de detecció (primàries i secundàries).
