@@ -2,7 +2,7 @@
 
 # SEGUIMENT D'AMFIBIS ALS PARCS DE LA DIBA
 # Anàlisi de les evidències de reproducció (postes, larves i metamòrfics)
-# mitjançant el model DIM proposat per MacKenzie (2003)
+# mitjançant el model DOM proposat per MacKenzie (2003)
 
 ############################################################
 
